@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: sans-serif;
+}
+
+/* Upper body */
+
+.upper-body {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.left {
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 10px;   
+}
+
+.left p {
+    font-family: 'Roboto';
+    color: #fff;
+    opacity: 70%;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.left button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    border-radius: 5px;
+    padding: 6px 24px;
+}
+
+.right {
+    width: 600px;
+    height: 350px;
+    padding: 50px;
+}
+
+/* center */
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 36px;
+    align-items: center;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.crows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.center img {
+    width: 180px;
+    height: 180px;
+    border  : 4px solid #3882F6;
+    border-radius: 15%;
+    margin: 24px;
+    margin-bottom: 0;
+}
+
+.center p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    max-width: 180px;
+    text-align: center;
+    margin: 24px;
+}
+
+/* Quotation */
+
+.second {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 190, 190);
+    padding: 80px;
+    text-align: center;
+}
+
+.second p {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    margin: 36px;
+}
+
+.third {
+    background-color: #3882F6;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 8px 24px;
+}
