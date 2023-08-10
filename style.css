@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: 'Roboto';
     background-color: #fff;
     padding: 0;
     margin: 0;
@@ -58,13 +59,11 @@ a {
 }
 
 .left p {
-    font-family: 'Roboto';
     color: #fff;
     opacity: 70%;
 }
 
 h1 {
-    font-family: 'Roboto';
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -88,7 +87,6 @@ h1 {
 /* center */
 
 h2 {
-    font-family: 'Roboto';
     font-size: 36px;
     align-items: center;
     font-weight: bolder;
@@ -114,7 +112,6 @@ h2 {
 }
 
 .center p {
-    font-family: 'Roboto';
     font-size: 14px;
     max-width: 180px;
     text-align: center;
@@ -132,21 +129,37 @@ h2 {
 }
 
 .second p {
-    font-family: 'Roboto';
     font-style: italic;
     font-weight: light;
     font-size: 36px;
-    margin: 36px;
 }
+
+/* Call to action */
 
 .third {
     background-color: #3882F6;
-    margin: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
-    
+    border-radius: 10px;
+    width: 50%;
+    margin: 50px 200px;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    margin: 10px;
+    color: white;
+}
+
+.call p {
+    opacity: 70%;
+}
+
+.call h3 {
+    margin: 0;
 }
 
 button {
