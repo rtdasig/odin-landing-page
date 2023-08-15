@@ -5,17 +5,19 @@
 body {
     font-family: 'Roboto';
     background-color: #fff;
-    padding: 0;
-    margin: 0;
+    align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .header {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-block: 30px;
+    padding-inline: 390px;
 }
 
 .logo {
@@ -47,6 +49,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    gap: 5rem;
 }
 
 .left {
@@ -55,7 +58,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 10px;   
 }
 
 .left p {
@@ -79,9 +81,9 @@ h1 {
 }
 
 .right {
-    width: 600px;
+    width: 550px;
     height: 350px;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 /* center */
@@ -97,7 +99,6 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     padding: 30px;
     padding-top: 0;
 }
@@ -123,15 +124,25 @@ h2 {
 .second {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: rgb(192, 190, 190);
-    padding: 80px;
+    padding: 50px;
     text-align: center;
 }
 
-.second p {
+.quote {
     font-style: italic;
     font-weight: light;
     font-size: 36px;
+    text-align: left;
+    margin: 50px 500px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+    margin: 50px 500px;
 }
 
 /* Call to action */
@@ -142,29 +153,32 @@ h2 {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    width: 50%;
-    margin: 50px 200px;
+    margin: 50px 500px;
+    padding: 20px;
+    gap: 5rem;  
 }
 
 .call {
     display: flex;
     flex-direction: column;
-    flex-basis: 500px;
-    margin: 10px;
     color: white;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
 }
 
 .call p {
     opacity: 70%;
-}
-
-.call h3 {
     margin: 0;
 }
+
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
+    border-color: white;
     padding: 8px 24px;
 }
