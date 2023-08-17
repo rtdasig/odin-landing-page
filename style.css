@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     background-color: rgb(15, 15, 15);
     color: #F9FAF8;
-    padding-block: 30px;
+    padding-top: 30px;
     padding-inline: 490px;
 }
 
@@ -51,7 +51,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding-inline: 30px;
+    padding-block: 50px;
     gap: 5rem;
 }
 
@@ -61,6 +62,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     flex-shrink: 2;
+    margin-right:
 }
 
 .left p {
@@ -90,7 +92,7 @@ button:hover {
 
 .right {
     width: 450px;
-    height: auto;
+    height: 250px;
     margin: 20px 0;
     box-shadow: 0 0px 4px 0 rgb(61, 61, 61);
 
@@ -115,8 +117,8 @@ h2 {
 }
 
 .center img {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border  : 2px solid rgb(24, 83, 64);
     border-radius: 15%;
     margin: 24px;
@@ -126,7 +128,7 @@ h2 {
 
 .center p {
     font-size: 14px;
-    max-width: 180px;
+    max-width: 160px;
     text-align: center;
     margin: 24px;
 }
