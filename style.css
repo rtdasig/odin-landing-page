@@ -9,21 +9,22 @@ body {
     justify-content: center;
     margin: 0;
 }
+/* Navigation Bar */
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: rgb(15, 15, 15);
     color: #F9FAF8;
     padding-block: 30px;
-    padding-inline: 390px;
+    padding-inline: 490px;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0px 4px 0 rgb(158, 158, 158);
 }
 
 ul {
@@ -41,10 +42,15 @@ a {
     font-family: sans-serif;
 }
 
-/* Upper body */
+.nav-bar a:hover {
+    background-color: rgb(87, 199, 161);
+    color: rgb(15, 15, 15);
+}
 
-.upper-body {
-    background-color: #1F2937;
+/* Hero */
+
+.hero {
+    background-color: rgb(15, 15, 15);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +59,10 @@ a {
 }
 
 .left {
-    flex-basis: 500px;
+    flex-basis: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
+    justify-content: flex-start;
 }
 
 .left p {
@@ -73,17 +78,24 @@ h1 {
 }
 
 .left button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: rgb(87, 199, 161);
+    color: black;
     width: 100px;
     border-radius: 5px;
     padding: 6px 24px;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+}
+
 .right {
-    width: 550px;
-    height: 350px;
-    padding: 50px 0;
+    width: 450px;
+    height: auto;
+    margin: 20px 0;
+    box-shadow: 0 0px 4px 0 rgb(61, 61, 61);
+
 }
 
 /* center */
@@ -106,10 +118,11 @@ h2 {
 .center img {
     width: 180px;
     height: 180px;
-    border  : 4px solid #3882F6;
+    border  : 2px solid rgb(24, 83, 64);
     border-radius: 15%;
     margin: 24px;
     margin-bottom: 0;
+    box-shadow: 0 3px 3px 0 rgb(54, 53, 53);
 }
 
 .center p {
@@ -119,13 +132,13 @@ h2 {
     margin: 24px;
 }
 
-/* Quotation */
+/* Quote */
 
 .second {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: rgb(192, 190, 190);
+    background-color: rgb(182, 182, 182);
     padding: 50px;
     text-align: center;
 }
@@ -134,35 +147,34 @@ h2 {
     font-style: italic;
     font-weight: light;
     font-size: 36px;
-    text-align: left;
-    margin: 50px 500px;
+    text-align: center;
+    margin: 80px 500px;
 }
 
 .author {
     font-size: 20px;
     font-weight: bold;
-    text-align: end;
-    margin: 50px 500px;
+    text-align: center;
 }
 
 /* Call to action */
 
 .third {
-    background-color: #3882F6;
+    background-color: rgb(87, 199, 161);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    margin: 50px 500px;
-    padding: 20px;
+    margin: 80px 500px;
+    padding: 10px;
     gap: 5rem;  
 }
 
 .call {
     display: flex;
     flex-direction: column;
-    color: white;
-    padding: 10px;
+    color: black;
+    padding: 20px;
 }
 
 h3 {
@@ -176,9 +188,21 @@ h3 {
 
 
 button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: rgb(87, 199, 161);
+    color: black;
     border-radius: 5px;
     border-color: white;
     padding: 8px 24px;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px; 
 }
