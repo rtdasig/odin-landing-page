@@ -176,7 +176,6 @@ h2 {
     flex-direction: column;
     color: black;
     padding: 20px;
-    flex-shrink: 0;
 }
 
 h3 {
